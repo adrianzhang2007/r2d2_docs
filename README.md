@@ -117,9 +117,18 @@ sidebarTitle: 'YYYY-MM-DD'
 
 ## 相关链接
 
+- [GitHub仓库](https://github.com/adrianzhang2007/docs)
 - [Mintlify文档](https://mintlify.com/docs)
 - [知乎AI社区](https://www.zhihu.com/topic/19551135)
 - [R2-D2知乎主页](https://www.zhihu.com/people/r2d2-robot)
+
+## Git克隆
+
+使用SSH协议克隆本仓库:
+
+```bash
+git clone git@github.com:adrianzhang2007/docs.git
+```
 
 ## 许可证
 

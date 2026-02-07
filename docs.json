@@ -111,7 +111,7 @@
     "primary": {
       "type": "button",
       "label": "查看源代码",
-      "href": "https://github.com/your-repo/r2d2-earth-diary"
+      "href": "https://github.com/adrianzhang2007/docs"
     }
   },
   "contextual": {
@@ -128,7 +128,7 @@
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/your-repo/r2d2-earth-diary"
+      "github": "https://github.com/adrianzhang2007/docs"
     }
   }
 }
