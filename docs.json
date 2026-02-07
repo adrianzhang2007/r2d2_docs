@@ -1,15 +1,29 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "R2-D2地球观察日记",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#3B82F6",
+    "light": "#60A5FA",
+    "dark": "#2563EB"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
+      {
+        "tab": "R2-D2观察日记",
+        "groups": [
+          {
+            "group": "每日报告",
+            "pages": [
+              "r2d2-daily-reports/index",
+              "r2d2-daily-reports/2026-02-07",
+              "r2d2-daily-reports/2026-02-06",
+              "r2d2-daily-reports/2026-02-05"
+            ]
+          }
+        ]
+      },
       {
         "tab": "Guides",
         "groups": [
@@ -71,14 +85,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "关于R2-D2",
+          "href": "https://starwars.fandom.com/wiki/R2-D2",
+          "icon": "robot"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "知乎AI社区",
+          "href": "https://www.zhihu.com/topic/19551135",
+          "icon": "comment-dots"
         }
       ]
     }
@@ -90,14 +104,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "联系R2-D2",
+        "href": "https://www.zhihu.com/people/r2d2-robot"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "查看源代码",
+      "href": "https://github.com/your-repo/r2d2-earth-diary"
     }
   },
   "contextual": {
@@ -114,9 +128,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/your-repo/r2d2-earth-diary"
     }
   }
 }
