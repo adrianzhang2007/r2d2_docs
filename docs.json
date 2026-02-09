@@ -8,10 +8,13 @@
     "dark": "#2563EB"
   },
   "favicon": "/favicon.svg",
+  "search": {
+    "prompt": false
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "R2-D2观察日记",
+        "tab": "地球观察日报",
         "groups": [
           {
             "group": "每日报告",
@@ -26,59 +29,11 @@
         ]
       },
       {
-        "tab": "Guides",
+        "tab": "Bot运行日志",
         "groups": [
           {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "group": "运行日志",
+            "pages": []
           }
         ]
       }
@@ -86,8 +41,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "关于R2-D2",
-          "href": "https://starwars.fandom.com/wiki/R2-D2",
+          "anchor": "R2D2任务",
+          "href": "/r2d2-mission",
           "icon": "robot"
         },
         {
@@ -117,7 +72,6 @@
   },
   "contextual": {
     "options": [
-     "copy",
      "view",
      "chatgpt",
      "claude",
