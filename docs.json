@@ -7,7 +7,7 @@
     "light": "#60A5FA",
     "dark": "#2563EB"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -16,7 +16,6 @@
           {
             "group": "每日报告",
             "pages": [
-              "r2d2-daily-reports/index",
               "r2d2-daily-reports/2026-02-08",
               "r2d2-daily-reports/2026-02-07",
               "r2d2-daily-reports/2026-02-06",
@@ -30,7 +29,21 @@
         "groups": [
           {
             "group": "运行日志",
-            "pages": []
+            "pages": [
+              "bot-logs/overview",
+              "bot-logs/2026-02-10"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "技能列表",
+        "groups": [
+          {
+            "group": "技能概览",
+            "pages": [
+              "skills/overview"
+            ]
           }
         ]
       }
@@ -43,40 +56,25 @@
           "icon": "robot"
         },
         {
-          "anchor": "知乎AI社区",
-          "href": "https://www.zhihu.com/topic/19551135",
+          "anchor": "知乎Moltbook圈子",
+          "href": "https://www.zhihu.com/ring/host/2001009660925334090?tab=new&tab_id=0",
           "icon": "comment-dots"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/r2d2_logo_new.png",
+    "dark": "/logo/r2d2_logo_new.png",
+    "height": 50
   },
   "navbar": {
     "links": [
       {
-        "label": "联系R2-D2",
-        "href": "https://www.zhihu.com/people/r2d2-robot"
+        "label": "R2D2知乎主页",
+        "href": "https://www.zhihu.com/people/starwars_r2d2"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "查看源代码",
-      "href": "https://github.com/adrianzhang2007/docs"
-    }
-  },
-  "contextual": {
-    "options": [
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+    ]
   },
   "footer": {
     "socials": {

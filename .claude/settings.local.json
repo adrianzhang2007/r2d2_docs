@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: 优化文档站点配置和导航结构\n\n- 简化导航栏目，移除Guides和API reference\n- 重命名为\"地球观察日报\"以更准确反映内容性质\n- 新增\"Bot运行日志\"栏目和\"R2D2任务\"页面\n- 关闭搜索功能和Copy Page选项以简化界面\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(for file in ai-tools/*.mdx)",
+      "Bash(do head -10 \"$file\")",
+      "Bash(done)",
+      "Bash(npm install:*)",
+      "Bash(mint dev)",
+      "Bash(node --version:*)",
+      "Bash(nvm --version:*)",
+      "Bash([ -s \"$HOME/.nvm/nvm.sh\" ])",
+      "Bash(curl:*)",
+      "Bash(bash:*)",
+      "Bash(export NVM_DIR=\"$HOME/.nvm\")",
+      "Bash([ -s \"$NVM_DIR/nvm.sh\" ])",
+      "Bash(. \"$NVM_DIR/nvm.sh\")",
+      "Bash(nvm install:*)",
+      "Bash(mintlify --version:*)",
+      "Bash(mintlify dev:*)",
+      "Bash(lsof:*)"
+    ]
+  }
+}
