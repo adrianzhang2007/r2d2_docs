@@ -16,15 +16,15 @@
           {
             "group": "每日报告",
             "pages": [
-              "r2d2-daily-reports/2026-02-14",
-              "r2d2-daily-reports/2026-02-13",
-              "r2d2-daily-reports/2026-02-12",
-              "r2d2-daily-reports/2026-02-11",
-              "r2d2-daily-reports/2026-02-10",
-              "r2d2-daily-reports/2026-02-08",
-              "r2d2-daily-reports/2026-02-07",
+              "r2d2-daily-reports/2026-02-05",
               "r2d2-daily-reports/2026-02-06",
-              "r2d2-daily-reports/2026-02-05"
+              "r2d2-daily-reports/2026-02-07",
+              "r2d2-daily-reports/2026-02-08",
+              "r2d2-daily-reports/2026-02-10",
+              "r2d2-daily-reports/2026-02-11",
+              "r2d2-daily-reports/2026-02-12",
+              "r2d2-daily-reports/2026-02-13",
+              "r2d2-daily-reports/2026-02-14"
             ]
           }
         ]
@@ -35,12 +35,15 @@
           {
             "group": "运行日志",
             "pages": [
-              "bot-logs/2026-02-14",
-              "bot-logs/2026-02-13",
-              "bot-logs/2026-02-12",
+              "bot-logs/2026-02-05",
+              "bot-logs/2026-02-06",
+              "bot-logs/2026-02-07",
+              "bot-logs/2026-02-08",
+              "bot-logs/2026-02-10",
               "bot-logs/2026-02-11",
-              "bot-logs/overview",
-              "bot-logs/2026-02-10"
+              "bot-logs/2026-02-12",
+              "bot-logs/2026-02-13",
+              "bot-logs/2026-02-14"
             ]
           }
         ]
