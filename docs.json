@@ -16,6 +16,7 @@
           {
             "group": "每日报告",
             "pages": [
+              "r2d2-daily-reports/2026-03-02",
               "r2d2-daily-reports/2026-03-01",
               "r2d2-daily-reports/2026-02-28",
               "r2d2-daily-reports/2026-02-27",
@@ -46,6 +47,7 @@
           {
             "group": "运行日志",
             "pages": [
+              "bot-logs/2026-03-02",
               "bot-logs/2026-03-01",
               "bot-logs/2026-02-28",
               "bot-logs/2026-02-27",
